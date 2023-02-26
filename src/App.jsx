@@ -1,11 +1,14 @@
 import React from 'react';
 import styles from "./styles.js";
+
+import {Navbar,  Hero, Stats, Billing, CardDeal, Business, CTA, Footer, Clients, Testimonials} from "./components/index.js";
+
 const App = (props) => {
     return (
         <div className="bg-primary w-full overflow-hidden">
             <div className={`${styles.paddingX} ${styles.flexCenter}`}>
                 <div className={`${styles.boxWidth}`}>
-                    NavBar
+                    <Navbar />
                 </div>
             </div>
 
